@@ -1,0 +1,20 @@
+{
+    "name": "v7-test-workspace",
+    "version": "0.0.0",
+    "packageManager": "yarn@4.4.0",
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ]
+    },
+    "resolutions": {
+        "@types/react": "^17"
+    },
+    "scripts": {
+        "start:plugin": "yarn workspace v7-workspace-test start"
+    },
+    "description": "v2 implementation for the buildNow system. Designed for Flex v2",
+    "author": "Zing Dev Limited",
+    "license": "UNLICENSED",
+    "private": true
+}
